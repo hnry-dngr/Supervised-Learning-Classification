@@ -30,7 +30,7 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import accuracy_score
 from sklearn.metrics import classification_report
 
-warnings = filter.warnings("ignore")
+warnings.filterwarnings("ignore")
 
 # Importing the Dataset
 data = pd.read_csv("C:/Users/HP/Downloads/African_crises_dataset (1).csv")
